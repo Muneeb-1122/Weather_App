@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Card</title>
+</head>
+
+<body>
+    <div class="weather-card">
+        <!-- Search Bar -->
+        <div class="search-container">
+            <img src="resources/icons/magnifyingglass.svg" class="icon-left click-btn" alt="Search" />
+            <input class="input find-location" type="text" placeholder="Find Country" />
+        </div>
+
+        <div class="wrapper">
+            <!-- Date -->
+            <div class="date"></div>
+
+            <!-- Location -->
+            <div class="location">
+                <img width="15px" src="./resources/icons/location-svgrepo-com (1).svg" alt="Location" />
+                <span class="location_name">Semarang</span>
+            </div>
+
+            <!-- Weather Icon -->
+            <div class="weather-icon">
+                <!-- <img src="resources/icons/sunny.svg" alt="Sun" /> -->
+            </div>
+
+            <!-- Temperature -->
+            <p class="temperature">24 C°</p>
+
+            <div class="temp">
+                <div class="inner-temp">
+                    <div class="left-temp">
+                        <div class="left-1 left">
+                            <img width="20" src="./resources/icons/Vector.svg" alt="Location" />
+                            <span class="light-txt">Wind</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="left-2 left">
+                            <img width="20" src="./resources/icons/Vector-1.svg" alt="Location" />
+                            <span class="light-txt">Hum</span>
+                        </div>
+                    </div>
+                    <div class="right-temp">
+                        <div class="right-1">
+                            <p class="wind light-txt">15Km/h</p>
+                        </div>
+                        <div class="right-2">
+                            <p class="humidity light-txt">26%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
